@@ -1,0 +1,127 @@
+@import url('https://use.typekit.net/yob7oyx.css');
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara&display=swap');
+
+@font-face {
+    font-family: "Hind Vadodara";
+    src: url('https://fonts.googleapis.com/css?family=Hind+Vadodara&display=swap');
+    font-weight: light;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Hind Vadodara;
+    font-style: light;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline;
+    padding: .5em;
+    color: gray;
+    text-decoration: none;
+    font-family: courier;
+    font-weight:lighter;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.9em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 4%;
+}
+
+.nav head {
+    font-family: courier;
+}
+
+.nav a:hover {
+    background-color: rgba(92, 113, 118, .5)
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 0.05);
+    background-image: url("Images/matt-hardy-6ArTTluciuA-unsplash.jpg");
+    background-size: cover;
+    background-position-y: center;
+    height: 245px;
+}
+
+.content-section {
+    margin: 5em 10em 5em 10em;
+    
+}
+
+.content-section2 {
+    margin: 5em 10em 20em 10em;
+    
+}
+
+
+
+.section-header {
+    font-family: courier;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+
+.about-image {
+    float: left;
+    margin: 0px 15px 0px 0px;
+    background-position-x: center;
+
+}
+
+
+div.a {
+    font-size: 180%;
+    padding: 50px 0 0 700px;
+  }
+
+  .btn {
+    
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: .5em;
+    margin: 0 50% 10% 50%;
+    color: black;
+    border: 1.5px solid;
+    background-color: rgba(255, 255, 255, .01);
+    font-weight: lighter;
+    padding-left: 1.75em;
+    padding-right: 1.75em; 
+    
+    
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-footer {
+    background-color: #5c7176;
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    height: 170px;
+
+}
